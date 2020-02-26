@@ -1,0 +1,86 @@
+﻿.dl_mini{
+    float: left;
+    text-align: left;
+    width:230px;
+    margin-right: 12px;
+ }
+  .dl_mini dd{
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    padding-left: 15px;
+    line-height: 30px;
+  }
+  .dl_mini dt{
+    padding: 15px;
+    background: #f8f8f8;
+    margin: 9px 0;
+    border-radius: 4px;
+  }
+   .dl_mini dt:hover{
+    background:#43AAFF;
+   }
+ .dl_mini dt a{
+    color: #333!important;
+    display: block;
+    line-height: 26px; 
+    text-align: left;
+   }
+ .dl_mini dt a:hover{
+    text-decoration: none;
+    border: none!important;
+    color: #43AAFF!important;
+ }
+ .dl_mini dt a .sp1{
+    font-size: 14px;
+    color: #000000;
+    line-height: 20px;
+    position:relative;
+    display: block;
+ }
+  .dl_mini dt a .sp2{
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+  }
+
+.hot_em{
+    font-style: normal;
+    background:#f35741;
+    color:#fff;
+    padding: 0 4px;
+    border-radius: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    position: absolute;
+    right: 50px;
+    top:0
+}
+.new_em{
+    background:#1c9afd;
+}
+.dl_mini dt:hover a .sp1,.dl_mini dt:hover a .sp2{
+    color: #fff;
+}
+.fixedRightBar div.l_box.l6{ width: 64px; height: 64px;   -webkit-animation: rotateInDownRight 2s 2.5s ease both; -moz-animation: rotateInDownRight 2s 2.5s ease both; cursor: pointer;}
+ 
+.fixedRightBar div.l_box.l6 a.show_box{
+    background: -webkit-linear-gradient(#fd8163, #fc4b4b); /* Safari 5.1 - 6.0 */
+background: -o-linear-gradient(#fd8163, #fc4b4b); /* Opera 11.1 - 12.0 */
+background: -moz-linear-gradient(#fd8163, #fc4b4b); /* Firefox 3.6 - 15 */
+background: linear-gradient(#fd8163, #fc4b4b); /* 标准的语法（必须放在最后） */
+   border: #fff 1px solid;
+   color: #fff;
+  }
+.fixedRightBar div.l_box.l6 i {
+       background:url('../image/wei/chanpinMore.png') center no-repeat;
+   }
+ .more_pro{ border: 2px solid #fd9ea0; z-index: 99999; background: #fff; padding: 30px; border-radius: 10px; display: none; position:fixed; right: 88px; bottom: 216px;}
+.fixedRightBar div.l_box.l6:hover .more_pro{ display:block;}
+ .more_pro .dl_mini dt  a{
+    width: auto;
+    height: auto;
+    background:none;
+    border: none;
+    text-align: left;
+ }

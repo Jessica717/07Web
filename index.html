@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>多用户电商小程序分销系统_专业社交电商系统商城开发商</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="./01Web/js/jquery-1.7.2.min.js"></script>
+    <script src="./01Mobile/js/zepto.min.js"></script>
+
+</head>
+
+<body>
+    <script type="text/javascript">
+        var includeLinkStyle = function (url) {
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = url;
+            document.getElementsByTagName('head')[0].appendChild(link);
+        };
+        //定义变量获取屏幕视口宽度
+        var windowWidth = $(window).width();
+        console.log(windowWidth)
+        if (windowWidth < 640) {
+            // do something
+            // includeLinkStyle("mobile.css");
+            $('body').load('./01Mobile/index.html');
+            $('html').css('fontSize','23.4375px')
+        }
+        if (windowWidth >= 640) {
+            // do something
+            // includeLinkStyle("mobile.css");
+            $('body').load('./01Web/index.html');
+        }
+    </script>
+</body>
+
+
+</html>

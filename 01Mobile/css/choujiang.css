@@ -1,0 +1,175 @@
+.left_year{
+	position: fixed;
+	left: 0;
+	bottom: 15px;
+	width: 3.2426666667rem;
+	z-index: 999999;
+}
+.flex_box{
+	display: flex;
+	display: -webkit-flex;
+}
+
+.flex_middle{
+	align-items: center;
+}
+.flex_space{
+	justify-content: space-between;
+}
+.page1 .left_year{
+	bottom: 115px;
+}
+.page2  .left_year{
+	bottom: 115px;
+}
+.page3  .left_year{
+	bottom: 115px;
+}
+.left_year img{
+	width:100%;
+}
+.modal{
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,0.4);
+	z-index: 999999;
+}
+.year_wrap{
+	height:15.1893333333rem;
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	width:100%;
+	background: url('http://static.pigcms.com/ds/wapchoujiang/images/year_bg.png') no-repeat;
+	background-size: 100% 15.1893333333rem;
+	padding-top: 5.888rem;
+	z-index: 9;
+}
+.page3  .year_wrap{
+	height: 8.889333rem;
+}
+.year_content{
+	padding: 0 1.28rem;
+	width:12.352rem;
+	margin: auto;
+}
+.page3  .year_content{
+	width: 9.8rem;
+	padding: 0 0.8rem;
+}
+.year_text{
+	font-size: 0.4266666667rem;
+	line-height: 0.5rem;
+	color: rgb(90,192,173);
+	padding: 0 0 0.6466666667rem;
+	margin: 0;
+}
+.year_input input{
+	height:1.536rem;
+	padding:0.512rem;
+	font-size: 0.5546666667rem;
+	border-radius: 2px;
+	width:100%;
+	background: rgba(0,0,0,0.05);
+	box-sizing: border-box;
+}
+.year_input{
+	padding-bottom: 0.6rem;
+}
+.btn_wrap{
+	/*padding: 0.4266666667rem 0;*/
+	padding:0;
+}
+.btn_year{
+	width:4.608rem;
+}
+.btn_year.btn_full{
+	width:100%;
+}
+.btn_year .btn{
+	display: block;
+	width:100%;
+	line-height: 1.536rem;
+	text-align: center;
+	border:none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	color: #fff;
+	padding: 0;
+	font-size: 0.5546666667rem;
+	background: linear-gradient(left,rgb(118,221,108),rgb(104,206,143),rgb(89,190,177));
+	background: -webkit-linear-gradient(left,rgb(118,221,108),rgb(104,206,143),rgb(89,190,177));
+	background: -moz-linear-gradient(left,rgb(118,221,108),rgb(104,206,143),rgb(89,190,177));
+	background: -ms-linear-gradient(left,rgb(118,221,108),rgb(104,206,143),rgb(89,190,177));
+	background: -o-linear-gradient(left,rgb(118,221,108),rgb(104,206,143),rgb(89,190,177));
+}
+.page2 .btn_year  .btn{
+	background: linear-gradient(left,rgb(80,189,248),rgb(46,114,255));
+	background: -webkit-linear-gradient(left,rgb(80,189,248),rgb(46,114,255));
+	background: -moz-linear-gradient(left,rgb(80,189,248),rgb(46,114,255));
+	background: -ms-linear-gradient(left,rgb(80,189,248),rgb(46,114,255));
+	background: -o-linear-gradient(left,rgb(80,189,248),rgb(46,114,255));
+}
+.page3 .btn_year  .btn{
+	background: linear-gradient(left,rgb(253,130,100),rgb(254,73,75));
+	background: -webkit-linear-gradient(left,rgb(253,130,100),rgb(254,73,75));
+	background: -moz-linear-gradient(left,rgb(253,130,100),rgb(254,73,75));
+	background: -ms-linear-gradient(left,rgb(253,130,100),rgb(254,73,75));
+	background: -o-linear-gradient(left,rgb(253,130,100),rgb(254,73,75));
+}
+.year_close{
+	padding-top: 2.1333333333rem;
+	width:1.3653333333rem;
+	margin:auto;
+}
+.year_close img{
+	width:100%;
+}
+.msgTip{
+	min-width:150px;
+	line-height: 40px;
+	background: rgba(0,0,0,0.6);
+	color: #fff;
+	font-size: 13px;
+	text-align: center;
+	position: fixed;
+	top:50%;
+	left:50%;
+	margin-top: -20px;
+	margin-left: -75px;
+	z-index: 0;
+	opacity: 0;
+}
+@keyframes  mymove{
+	0%{
+		opacity: 1;
+		z-index: 99999999;
+	}
+	100%{
+		opacity: 0;
+		z-index: 0;
+	}
+}
+@-webkit-keyframes  mymove{
+	0%{
+		opacity: 1;
+		z-index: 99999999;
+	}
+	100%{
+		opacity: 0;
+		z-index: 0;
+	}
+}
+.tip{
+	animation: mymove 1.5s;
+	-webkit-animation: mymove 1s; /* Safari 与 Chrome */
+}

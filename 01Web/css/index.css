@@ -1,0 +1,438 @@
+.pig-banner{
+    position: relative;
+   width: 100%;
+   height: 580px;
+   background: url("https://pigmcsdotcom.pigcms.com/ds/statics/shejiaodianshang/banner-bg.png") no-repeat center center;
+}
+.pig-banner button{
+    display: block;
+    position: absolute;
+    bottom: 88px;
+    left: 50%;
+    margin-left: -90px;
+    display: block;
+    width: 180px;
+    height: 60px;
+    font-size: 20px;
+	line-height: 60px;
+	letter-spacing: 7px;
+	color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.48);
+	border-radius: 33px;
+    border: solid 1px #ffffff;
+    -webkit-animation: bounceInUp 1s ease 0.5s 1 both;
+    animation: bounceInUp 1s ease 0.5s 1 both;
+    
+}
+.pig-banner{
+    display: block;
+}
+.pig-banner img:nth-child(2){
+    position: absolute;
+    display: block;
+    /* margin: 0 auto 40px; */
+}
+.pig-banner button:hover{
+    background-color: rgba(153, 153, 153, 0.48);;
+}
+.pig-banner img:nth-child(1){
+    position: absolute;
+    display: block;
+    left: 50%;
+    margin-left: -626px; 
+    top: 128px;
+    -webkit-animation: bounceInRight 1s ease 0.5s 1 both;
+    animation: bounceInRight 1s ease 0.5s 1 both;
+}
+.pig-banner img:nth-child(2){
+    top: 320px;
+    left: 50%;
+    margin-left: -360px;
+    -webkit-animation: bounceInLeft 1s ease 0.5s 1 both;
+    animation: bounceInLeft 1s ease 0.5s 1 both;
+}
+.pig-common-title{
+    width: 100%;
+    text-align: center;
+}
+.pig-common-title span{
+    display: block;
+    text-align: center;
+	font-size: 30px;
+	font-weight: normal;
+	color: #454f66;
+}
+.pig-common-title .line{
+    width: 62px;
+    height: 5px;
+    margin: 26px auto;
+	background-color: #1d7ff8;
+}
+.pig-common-title p{
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 25px;
+	letter-spacing: 0px;
+	color: #838a99;
+}
+.pig-part-one{
+    padding: 145px 0 0 0; 
+}
+.pig-part-one img{
+    display: block;
+    width: 1200px;
+    margin: 110px auto 0;
+    
+}
+.pig-part-two{
+    margin-top: 95px;
+    padding-bottom: 105px;
+    overflow: hidden;
+    padding-top: 120px;
+    background: url("https://pigmcsdotcom.pigcms.com/ds/statics/shejiaodianshang/pig-part-2bj.png") no-repeat 0 0;
+    background-size: cover;
+}
+.pig-part-two-content{
+    width: 974px;
+    margin: 85px auto 0;
+    overflow: hidden;
+}
+.operation-warp{
+    float: left;
+    width: 318px;
+    margin-right: 10px;
+}
+.operation-warp:last-child{
+    margin: 0;
+}
+
+.operation-box:hover .icon-warp img{
+    display: none;
+}
+.operation-box{
+    float: left;
+    width: 318px;
+    height: 174px;
+    margin-bottom: 10px;
+    align-items: center;
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.operation-box:last-child{
+    margin: 0;
+}
+.operation-box:hover,
+.operation-box-active{
+    background-image: linear-gradient(-13deg, 
+		#226ffa 0%, 
+        #2eaeff 100%);
+        
+}
+.operation-warp:nth-child(1) .operation-box:nth-child(1) .icon-warp{
+    background: url("https://pigmcsdotcom.pigcms.com/ds/statics/shejiaodianshang/active1.png") no-repeat center center;
+}
+.operation-warp:nth-child(1) .operation-box:nth-child(2) .icon-warp{
+    background: url("https://pigmcsdotcom.pigcms.com/ds/statics/shejiaodianshang/active2.png") no-repeat center center;
+}
+.operation-warp:nth-child(1) .operation-box:nth-child(3) .icon-warp{
+    background: url("https://pigmcsdotcom.pigcms.com/ds/statics/shejiaodianshang/active3.png") no-repeat center center;
+}
+.operation-warp:nth-child(1) .operation-box:nth-child(4) .icon-warp{
+    background: url("https://pigmcsdotcom.pigcms.com/ds/statics/shejiaodianshang/active4.png") no-repeat center center;
+}
+.operation-warp:nth-child(1) .operation-box:nth-child(5) .icon-warp{
+    background: url("https://pigmcsdotcom.pigcms.com/ds/statics/shejiaodianshang/active5.png") no-repeat center center;
+}
+/* -------------- */
+.operation-warp:nth-child(2) .operation-box:nth-of-type(1) .icon-warp{
+    background: url("https://pigmcsdotcom.pigcms.com/ds/statics/shejiaodianshang/active6.png") no-repeat center center;
+}
+.operation-warp:nth-child(2) .operation-box:nth-of-type(3) .icon-warp{
+    background: url("https://pigmcsdotcom.pigcms.com/ds/statics/shejiaodianshang/active7.png") no-repeat center center;
+}
+/* 第三部分 */
+.operation-warp:nth-child(3) .operation-box:nth-child(1) .icon-warp{
+    background: url("https://pigmcsdotcom.pigcms.com/ds/statics/shejiaodianshang/active8.png") no-repeat center center;
+}
+.operation-warp:nth-child(3) .operation-box:nth-child(2) .icon-warp{
+    background: url("https://pigmcsdotcom.pigcms.com/ds/statics/shejiaodianshang/active9.png") no-repeat center center;
+}
+.operation-warp:nth-child(3) .operation-box:nth-child(3) .icon-warp{
+    background: url("https://pigmcsdotcom.pigcms.com/ds/statics/shejiaodianshang/active10.png") no-repeat center center;
+}
+.operation-warp:nth-child(3) .operation-box:nth-child(4) .icon-warp{
+    background: url("https://pigmcsdotcom.pigcms.com/ds/statics/shejiaodianshang/active11.png") no-repeat center center;
+}
+.operation-warp:nth-child(3) .operation-box:nth-child(5) .icon-warp{
+    background: url("https://pigmcsdotcom.pigcms.com/ds/statics/shejiaodianshang/active12.png") no-repeat center center;
+}
+.operation-box .icon-warp{
+    float: left;
+    width: 116px;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.operation-box .icon-warp img{
+    display: block; 
+    width: auto;
+    margin: 0 auto;
+}
+.operation-box ul{
+    float: left;
+    margin-top: 55px;
+}
+.operation-box:hover ul li:nth-child(1),
+.operation-box-active ul li:nth-child(1){
+    color: #ffffff!important;
+}
+.operation-box:hover ul li:nth-child(2),
+.operation-box-active ul li:nth-child(2){
+    color: #ffffff!important;
+}
+.operation-box ul li:nth-child(1){
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 14px;
+}
+.operation-box ul li:nth-child(2){
+    font-size: 14px;
+    color: #333333;
+    opacity: 0.5;
+}
+.operation-content-show{
+    height: 542px;
+    position: relative;
+    clear: both;
+    margin: 10px 0 10px;;
+    width: 317px;
+    overflow: hidden;
+
+}
+.fromMediaCon{     
+    width: 260px;
+    height: 530px;
+    margin: 0 auto;
+    border-radius: 30px; overflow: hidden; position: relative;  box-shadow: 0px 10px 10px 10px rgba(204, 204, 204, 0.48);}
+.slideImg{ position: absolute; left: 0px; top:0px; margin-top: 12px; z-index: 99; border-radius: 20px; overflow: hidden;}
+.slideImg img{ border-radius: 20px; }
+.fromMediaCon .slideImg ul{ height: 505px; overflow: hidden;}
+.fromMediaCon .slideImg ul li{  overflow: hidden; float: left;  width: 234px; height: 505px;margin-left: 14px;}
+
+.operation-content-img-wrap{
+    height:738px;
+}
+.operation-content-show img{
+    width: 101%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pig-part-three{
+    width: 1200px;
+    margin: 100px auto 0;
+    overflow: hidden;
+}
+.part-three-content{
+    overflow: hidden;
+    margin-top: 130px;
+}
+.part-three-content ul li{
+    float: left;
+    width: 346px;
+    height: 298px;
+    margin-right: 81px;
+    margin-bottom: 92px;
+    text-align: center;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 30px 0px 
+		rgba(29, 127, 248, 0.05);
+	border-radius: 20px;
+}
+.part-three-content ul li:nth-of-type(3n){
+    margin-right: 0;
+}
+.part-three-content ul li:hover img{ -webkit-animation: bounce 1s ease 0s 1 both; 
+     animation: bounce 1s ease 0s 1 both;}
+.part-three-content ul li img{
+    display: block;
+    border-radius: 50%;
+    width: 120px;
+	/* height: 99px; */
+	margin: 38px auto 15px;
+}
+.part-three-content ul li h2{
+    margin-bottom: 17px;
+    font-weight: normal;
+    font-size: 24px;
+    color: #454f66;
+    
+}
+.part-three-content ul li p{
+    font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 22px;
+	letter-spacing: 0px;
+	color: #454f66;
+}
+.pig-part-four-content{
+    display: block;
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 90px;
+}
+.pig-part-four-content img:nth-child(1){
+    display: block;
+    width: 660px;
+    margin: 0 auto;
+}
+.text-wrap{
+    position: absolute;
+    
+    width: 390px;
+    height: 170px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(204, 204,204, 0.2);
+}
+.text-wrap h2{
+    margin: 33px 0 22px 37px ;
+    font-size: 22px;
+	font-weight: normal;
+	line-height: 25px;
+	color: #4f87fb;
+}
+.text-wrap p{
+    margin-left: 37px ;
+    font-size: 16px;
+	line-height: 25px;
+	color: #666666;
+}
+.text-one{
+    top: 42px;
+    left: 0;
+    height: 174px;
+    /* -webkit-animation: rotateInDownLeft 1.5s 1.5s ease both; */
+}
+.text-one::after{
+    bottom:-20px;
+    right: 50px;
+}
+.text-two{
+    top: 110px;
+    right: 60px;
+    height: 160px;
+    /* -webkit-animation: rotateInDownRight 1.5s 1.5s ease both; */
+}
+.text-two::after{
+    bottom:-20px;
+    left: 50px;
+}
+.text-three{
+    top: 444px;
+    width: 430px;
+    left: -100px;
+    height: 166px;
+    /* -webkit-animation: rotateInDownLeft 1.5s 1.5s ease both; */
+}
+.text-three::after{
+    top:-20px;
+    right: 40px;
+    transform: rotate(-45deg)!important;
+}
+.text-four{
+    top: 428px;
+    right: 20px;
+    height: 153px;
+    /* -webkit-animation: rotateInDownRight 1.5s 1.5s ease both; */
+}
+.text-four::after{
+    top:-20px;
+    left: 40px;
+    transform: rotate(-45deg)!important;
+}
+.text-wrap::after{
+    content: '';
+    position: absolute;
+    
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px ;
+    border-color: #fff #fff transparent transparent;
+    transform: rotate(135deg);
+    box-shadow: 3px -5px 5px rgba(204, 204,204, 0.2);
+}
+.pig-part-four{
+    padding-top: 40px;
+}
+.pig-part-four-content img:nth-child(3){
+
+}
+.pig-part-four-content img:nth-child(4){
+
+}
+.pig-part-four-content img:nth-child(5){
+
+}
+.pig-part-five{
+    width: 1200px;
+    overflow: hidden;
+    margin: 109px auto 260px;
+}
+.pig-part-five ul{
+    margin: 91px 140px 0;
+
+}
+.pig-part-five ul li {
+    float: left;
+    text-align: center;
+    margin-right: 186px;
+}
+.pig-part-five ul li:last-child{
+    margin: 0;
+}
+.pig-part-five ul li div{
+    display: flex;
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 25px rgba(29, 127, 238, 0.2) ;
+    background-color: #ffffff;
+    margin-bottom: 44px;
+}
+.pig-part-five ul li div:hover img{
+    transform: rotate(720deg);
+}
+.pig-part-five ul li img{
+    display: block;
+    width: 42px;
+    height: 42px;
+    margin: 0 auto;
+    transition: all 1s;
+   
+}
+.pig-part-five ul li span{
+    
+    font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 23px;
+	letter-spacing: 0px;
+	color: #333333;
+}
+.fixedLeftBar li{
+    width: 80px;
+    height: 80px;
+}
+.pig-part-bjcolor{
+    background-color: #f8fbff;
+}
