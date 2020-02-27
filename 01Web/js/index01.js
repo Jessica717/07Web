@@ -121,10 +121,6 @@ function opacityScroll(wrapper,item,sideLi,duration) {
             timer = setInterval(runn, duration);
         });
         sideLi.on('click',function(){
-            //clearInterval(timer);
-            //setTimeout(function(){
-            //    timer = setInterval(runn, 10000);
-            //},500)
             if(!$(this).is(":animated")){
                 if (!$(this).hasClass('active')) {
                     if($(this).data('index')<5){
@@ -194,13 +190,6 @@ $(window).scroll(function(event) {
         $('.fixedLeftBar li').removeClass('active');
         $('.bigNav li').removeClass('on');
     }
-    /*多场景交易*/
-    //if (scrollHeight >= 100) {
-    //    $('.modScene li:gt(3)').addClass('current');
-    //}
-    //if (scrollHeight >= 552) {
-    //    $('.modDrain').addClass('current');
-    //}
     if (scrollHeight >= 1452) {
         $('.modWeiShang').addClass('current');
     }

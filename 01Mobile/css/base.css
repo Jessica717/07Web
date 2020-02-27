@@ -39,9 +39,6 @@ input[type="number"]{-moz-appearance:textfield;}
 .clearfix:after {
     clear:both
 }
-
-.row{/*width: 100%*/}
-
 .row:before,.row:after {
     display:table;
     content:"";
@@ -51,18 +48,9 @@ input[type="number"]{-moz-appearance:textfield;}
     clear:both
 }
 .overflowHiden{overflow: hidden}
-
-
-/* link */
 .cp{cursor:pointer}
-/*a,a:visited {color:#666666;text-decoration:none;outline: none;}*/
-/*a:active{ background-color: #efefef;}*/
-
 a.c-0cf,
 a.c-0cf:visited { color: #0cf;}
-
-
-/* font */
 .f10{ font-size: 10px;}
 .f11{font-size: 11px!important;}
 .f12{ font-size: 12px!important;}
@@ -89,8 +77,6 @@ a.c-0cf:visited { color: #0cf;}
 .fs-b11 { font-size: .7em;}
 .fs-b10 { font-size: .625em;}
 .fs-b9 { font-size: .55em;}
-
-
 
 .fb{font-weight:bold}
 .fn{font-weight:normal}

@@ -46,14 +46,6 @@ $(function(){
         })();
     }
 
-
-
-
-    //setInterval(function(){
-    //    $('#year3 li:last').css({'height':'0px','opacity': '0'}).insertBefore('#year3 li:first').animate({'height':'20px','opacity': '1'}, 'slow', function() {
-    //        $(this).removeAttr('style');
-    //    });
-    //},1000);
 });
 
 function loadImage(url, callback) {
@@ -84,27 +76,6 @@ $(function(){
         scrollTop:0
     }, 10);
     bigScroll();//调用轮播图方法
-
-    // $(".fixedBar .closed").on("click",function(){
-
-    //    $(".fixedBar").stop().animate({'right':'-140px'},500,function(){
-
-    //        $(".fixedBar .clickBtn").fadeIn();
-
-    //    });
-
-    // });
-
-    // $(".fixedBar .clickBtn").on('click',function(){
-
-    //     $(".fixedBar").stop().animate({'right':'0px'},500,function(){
-
-    //         $(".fixedBar .clickBtn").fadeOut();
-
-    //     });
-
-    // });
-
 
 
     $(window).scroll(function() {

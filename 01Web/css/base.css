@@ -455,43 +455,6 @@ a.c-0cf:visited { color: #0cf;}
 .endFt{background: #3d3d3d;text-align: center;padding: 30px 0}
 .endFt p{line-height: 24px}
 .endFt p a{padding: 0 5px}
-/* .fixedBar{    position: fixed;
-    right: 0px;
-    top: 128px;
-    width: 140px;
-    background: #f8fafb;
-    z-index: 1000;}
-.fixedBar .clickBtn{display: none;position: absolute;width: 36px;height: 110px;background: url("../image/wei/icons.png") no-repeat -424px -51px; left: -35px;top: 0;cursor: pointer}
-.fixedBar .bigQQ i{display: block;margin: 0 auto;width: 108px;height: 101px;background: url("../image/wei/icons.png") no-repeat -460px 0}
-.fixedBar .bigQQ p{text-align: center;font-size: 16px;color: #0173ca}
-.fixedBar .bigQQ .tip{font-size: 16px;color: #f05a25}
-.fixedBar .qqGroup{border-bottom: 1px solid #e3e3e3; width: 80%; margin: 0 auto;padding-bottom: 10px}
-.fixedBar .qqGroup li{padding-top: 8px; margin-left: 20px;}
-.fixedBar .qqGroup li a{color: #0173ca}
-.fixedBar .qqGroup li a i{display: inline-block;width:14px;height: 15px;background: url("../image/wei/icons.png") no-repeat -461px -102px;vertical-align: middle;margin-right: 5px}
-.fixedBar .qqGroup li a i{*display: inline}
-.fixedBar .phone{text-align: center; padding-bottom: 5px;}
-.fixedBar .phone h3{font-size: 18px;color: #0173ca;font-weight: normal;padding: 10px 0}
-.fixedBar .phone h3 i{display: inline-block;width: 22px;height: 22px;vertical-align: middle;background: url("../image/wei/icons.png") no-repeat -459px -118px;margin-right: 5px}
-.fixedBar .phone h3 i{*display: inline}
-.fixedBar .phone p{color:#f05a25;line-height: 20px}
-.fixedBar .linkA{text-align: center;font-size: 18px}
-.fixedBar .linkA a{color: #fff;background: #00e16a;display: block;padding: 15px 0}
-.fixedBar .linkA a:hover{background: #1CA222}
-.fixedBar .linkA a:first-child{background:#00a2e5}
-.fixedBar .linkA a:first-child:hover{background: #2629B1}
-.fixedBar .linkA a i{display: inline-block;width: 30px;height: 30px;margin: 0 auto;background: url("../image/wei/icons.png") no-repeat -481px -118px;vertical-align: middle}
-.fixedBar .linkA a i{*display: inline}
-.fixedBar .linkA a p{display: inline-block;vertical-align: middle}
-.fixedBar .linkA a p{*display: inline}
-.fixedBar .linkA a:first-child i{background-position: -511px -118px;width: 30px;height: 30px;}
-.fixedBar .linkA a.dailiBtn{background:#FE9832}
-.fixedBar .linkA a.dailiBtn i {background-position: -585px -118px;width: 30px;height: 30px;} */
-/*.backTop{background: #3d3d3d;display: block;text-align: center;padding: 15px 0;cursor: pointer;display: none}*/
-/*.backTop p{color: #a1a0a0}*/
-/*.backTop i{display: block;margin: 0 auto;width:12px;height: 7px;background: url("../image/wei/icons.png") no-repeat -500px -105px;margin-top: 5px}*/
-/* .fixedBar .ncDsBtn a{
-    display: block;} */
 
 .backTop {
     background: url("../image/wei/backtop.png") no-repeat top center;
