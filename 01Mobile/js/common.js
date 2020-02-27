@@ -68,9 +68,36 @@ $(function(){
     });
 });
 
+$(window).scroll(function() {
 
+    if ($(window).scrollTop() > 200) {
+
+        $(".backTop").css('display','block');
+
+    }
+
+    else {
+
+        $(".backTop").fadeOut(500);
+
+    }
+
+});
+$(".backTop").click(function() {
+
+    $('body,html').animate({
+
+            scrollTop: 0
+
+        },
+
+        500);
+
+    return false;
+
+});
 var myFun = {
-    //¼ÆËãÃ¿ÐÐ×îºóÒ»¸ö£¬Çå³ýÃ¿ÐÐ×îºóÒ»¸öµÄmargin
+    //ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½margin
     rowlastLi: function(a, b) {
         $(a).each(function() {
             var li = $(this).find("ul>li");
@@ -83,7 +110,7 @@ var myFun = {
             }
         })
     },
-    //tabÇÐ»»Ò»¸ö²ÎÊý
+    //tabï¿½Ð»ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     tab: function(obj) {
         var tabObj = $(obj);
         tabObj.each(function() {
@@ -98,7 +125,7 @@ var myFun = {
             }).eq(0).trigger("click");
         });
     },
-    //tabÇÐ»»Èý¸ö²ÎÊý
+    //tabï¿½Ð»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     tabs: function(a, b, c) {
         var len = $(a);
         len.bind("click", function() {
@@ -115,16 +142,16 @@ var myFun = {
          $(this).addClass("on").siblings().removeClass('on');
       });
     },
-    //Çå³þ×îºóÒ»¸öliµÄborder
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½liï¿½ï¿½border
     lastLi: function(a) {
         $(a).find("li").last().css('borderBottom', '0');
     },
-    //Çå³þ×îºóÒ»¸öliµÄmargin-right
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½liï¿½ï¿½margin-right
     lastLimr: function(a) {
         $(a).find("li").last().css('marginRight', '0');
     },
 
-    //ÉèÖÃÏà¶ÔÆÁÄ»£¨²»ÊÇÕû¸öÎÄµµµÄ£©µÄtopÖµ
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Äµï¿½ï¿½Ä£ï¿½ï¿½ï¿½topÖµ
     marginTop: function(a) {
         var wHeight = $(window).height();
         var boxHeight = $(a).height();

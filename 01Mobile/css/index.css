@@ -1,6 +1,15 @@
 /*define bootstrap 5 columns*/
 
-
+.backTop{
+    /* background: url("../image/backTop.png") no-repeat top center; */
+    width: 1.6rem;
+    height:1.6rem;
+    position: fixed;
+    right: 0.5rem;
+    bottom: 1.2rem;
+    display: none;
+    z-index: 9999; 
+  }
 .col-xs-1-5,
 .col-sm-1-5,
 .col-md-1-5,
