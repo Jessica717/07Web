@@ -13,7 +13,6 @@
     color: #fff
 }
 .nav{background: #fff}
-.nav ul{/*text-align: center*/}
 .nav ul li{display: inline-block;margin: 0 .4rem}
 .nav ul li a{font-size: .65rem;display: inline-block;padding: .6rem 0}
 .nav ul li.on a{color: #49b44f}
@@ -27,14 +26,11 @@
 .tagList ul li a{padding: 0.3rem 0;color: #9d9d9d;display: block;font-size: .6rem;}
 .tagList ul li:hover a,.tagList ul li.on a{color: #49b44f}
 
-.swiper-container-foot{}
-.scroll-foot{}
-.scroll-foot .swiper-slide{}
 .scroll-foot .swiper-slide ul{display: block;overflow: hidden;margin-right: -.5rem}
 .scroll-foot .swiper-slide ul li{float: left;margin: .5rem .35rem 0 0.35rem;width: 4.65rem;text-align: center}
 .scroll-foot .swiper-slide ul li img{max-width:100%}
 .scroll-foot .swiper-slide ul li h3{font-weight: normal;font-size: .6rem;height: .8rem;overflow: hidden;}
-.footer{/*background: #444;*//*padding: 0.5rem 0;*/}
+
 .footer{/*background: #444;*/padding: 1.8rem 0;}
 .footer .link{text-align: center;margin-bottom:.25rem}
 .footer .link ul li{display: inline-block;margin: 0 .25rem}
@@ -42,7 +38,7 @@
 .footer .desc{text-align: center}
 .footer .desc p{font-size: 0.6rem;color: #7f7f7f;line-height: 1rem;}
 .footer .desc p:first-child{font-size: 0.7rem;line-height: 1.4rem;}
-.tabThis{}
+
 .tabThis .hd ul{background: #efefef;-webkit-box-orient: horizontal;-moz-box-orient: horizontal;box-orient: horizontal;display: -webkit-box;display: -moz-box;display: box;}
 .tabThis .hd ul li{-webkit-box-flex: 1;-moz-box-flex: 1;box-flex: 1;text-align: center;border-bottom: 2px solid #efefef}
 .tabThis .hd ul li.on{border-bottom-color: #49b44f}
@@ -55,7 +51,7 @@
 
 .swiper-slide-active img{-webkit-animation: pulse 3s ease .1s both;-moz-animation: pulse 3s ease .1s both;}
 .swiper-pagination-bullet-active{background: #49b44f;}
-.singleBanner{}
+
 .singleBanner img{width: 100%}
 .articleTab article{padding:1rem .5rem 2rem .5rem;font-size:.6rem}
 .articleTab article img{max-height: 7.5rem}
@@ -113,14 +109,12 @@
     -webkit-animation-name: slideInLeft;
     animation-name: slideInLeft;
 }
-
 @-webkit-keyframes slideInRight {
     0% {
         -webkit-transform: translate3d(100%, 0, 0);
         transform: translate3d(100%, 0, 0);
         visibility: visible;
     }
-
     100% {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
@@ -183,7 +177,5 @@
     60%{opacity: 1;transform: translateX(-30px);}
     80%{transform: translateX(10px);}
     100%{transform: translateX(0);}}
-
-
 #banner  .swiper-slide-active img{-webkit-animation: pulse 3s ease .1s both;-moz-animation: pulse 3s ease .1s both;}
 .swiper-slide-active img{-webkit-animation: pulse 0s ease  0s both;-moz-animation: pulse 0s ease   0s both;}

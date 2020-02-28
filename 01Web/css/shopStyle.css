@@ -14,8 +14,6 @@ body{background: #fff;overflow-x: hidden;min-width:1120px}
 
 .header .top{background: #333;color: #9d9d9d;font-size: 12px;padding: 0px 50px}
 
-.header .top .topNav{}
-
 .header .top .topNav>a{color: #9d9d9d;font-size: 12px;display: inline-block;padding: 10px 15px}
 
 .header .top .topNav>a{*display: inline}
@@ -90,8 +88,6 @@ body{background: #fff;overflow-x: hidden;min-width:1120px}
 
 .fixedStyle .subNav{top: 60px}
 
-.banner{}
-
 .flashBox{position:relative;margin:0 auto;overflow:hidden;width: 100%;height:348px}
 
 .flashBox ul{width:100%;position:absolute;left:0;top:0;z-index:1;}
@@ -124,8 +120,6 @@ body{background: #fff;overflow-x: hidden;min-width:1120px}
 
 .flashBox ul li a .warp img{position: absolute}
 
-.flashBox .b1{}
-
 .flashBox .b1-1{position: absolute;top: 0;right: 0;z-index: 0}
 
 .flashBox .b1-2{position: absolute;top: 0;right: 0;z-index: 2}
@@ -157,7 +151,6 @@ body{background: #fff;overflow-x: hidden;min-width:1120px}
 .flashBox .bannerLeftInfo .targetBtn a:first-child{width: 110px;background-position: -140px -448px}
 
 .flashBox .bannerLeftInfo .targetBtn a:first-child:hover{background-position: -312px -448px}
-
 
 .indexMod{background: #fff}
 
@@ -233,13 +226,7 @@ body{background: #fff;overflow-x: hidden;min-width:1120px}
 
 .mod2 .projectDesc ul li.i12:hover i{background-position: -90px -940px}
 
-
-
 .footMod2Style .projectDesc  ul li{border:1px solid #d5dfe7;width: 163px}
-
-
-
-
 
 .mod3 .projectDesc ul{margin-right: -74px}
 
@@ -260,50 +247,11 @@ body{background: #fff;overflow-x: hidden;min-width:1120px}
 .projectDesc .industry ul li p{padding: 0 15px;margin-top: 15px}
 
 .projectDesc .industry ul li h3{font-size: 20px;color: #fff;font-weight: normal;}
-
-
-
-.projectDesc .industry .topImg{    height: 190px;
-
-    overflow: hidden;
-
-    position: relative;}
-
-.projectDesc .industry .topImg .caseImg{display: block;
-
-    width: 132px;
-
-    height: 132px;
-
-    margin: 40px auto 30px auto;
-
-    -webkit-transition: all .8s ease-in-out;
-
-    -moz-transition: all .8s ease-in-out;
-
-    transition: all .8s ease-in-out;}
-
-.projectDesc .industry ul li .code{    position: absolute;
-
-    top: 0;
-
-    left: 0;
-
-    right: 0;
-
-    bottom: 0;
-
-    background: url("../image/wei/darkrbga.png") repeat;
-
-    text-align: center;
-
-    display: none;}
-
-.projectDesc .industry ul li .code img{width: 140px;
-
-    height: 140px;
-
-    margin-top: 30px;}
+.projectDesc .industry .topImg{    height: 190px;overflow: hidden;position: relative;}
+.projectDesc .industry .topImg .caseImg{display: block;width: 132px;height: 132px;margin: 40px auto 30px auto;-webkit-transition: all .8s ease-in-out;-moz-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;}
+.projectDesc .industry ul li .code{ position: absolute;top: 0;left: 0;right: 0;bottom: 0;background: url("../image/wei/darkrbga.png") repeat;text-align: center;display: none;}
+.projectDesc .industry ul li .code img{width: 140px;height: 140px;margin-top: 30px;}
 
 .projectDesc .industry ul li:hover .code{display: block}
 
@@ -395,7 +343,7 @@ body{background: #fff;overflow-x: hidden;min-width:1120px}
 
 .mod7 .newsUl .newsColumns:first-child{margin-left: 0}
 
-/* .mod7 .newsUl .newsColumns .newsLsit li{width: 100%;padding-left: 10px;background: url("../image/wei/dot.png") no-repeat left center;margin-bottom: 8px} */
+
 .mod7 .newsUl .newsColumns .newsLsit li{width: 100%;padding-left: 10px;margin-bottom: 8px} 
 
 .mod7 .newsUl .newsColumns h3{font-weight: normal;font-size: 18px;color: #4f5b6c;padding: 15px 0}
@@ -407,8 +355,6 @@ body{background: #fff;overflow-x: hidden;min-width:1120px}
 .mod7 .newsUl .newsColumns .newsLsit li .time{float: right;font-size: 12px;color: #9d9d9d}
 
 .mod7 .newsUl .newsColumns .newsLsit li a{color: #9d9d9d;font-size: 14px;width: 260px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;display: block;}
-
-/* .mod7 .newsUl .newsColumns .newsLsit li:hover{background: url("../image/wei/dot_hover.png") no-repeat left center;} */
 
 .mod7 .newsUl .newsColumns .newsLsit li:hover a{color: #46a8f5}
 
@@ -438,8 +384,6 @@ body{background: #fff;overflow-x: hidden;min-width:1120px}
 .page .projectDesc ul li h3{font-size:22px;color: #525e6e;font-weight: normal;padding-bottom: 15px;overflow: hidden}
 
 .page .projectDesc ul li p{padding: 0 50px;font-size: 12px;text-align: left;overflow: hidden;color: #525e6e;line-height: 20px}
-
-
 
 .page .projectDesc ul li .btnA{display: block;text-align: center;margin-bottom: 40px;margin-top: 20px}
 
@@ -662,7 +606,6 @@ body{background: #fff;overflow-x: hidden;min-width:1120px}
 
 /***************一元夺宝众筹20160415**********************/
 
-
 /**新增banner20160711**/
 .banner-b{background: #0096ff}
 .banner-b .w1120 {height:328px;*height: 348px}
@@ -678,13 +621,11 @@ body{background: #fff;overflow-x: hidden;min-width:1120px}
 .banner-b .b-s-5{    right: 250px;width: 150px;}
 .banner-b .b-s-6{    right: 0;width: 65px;}
 .banner-b  .bannerLeftInfo .targetBtn {    top: 168px;left: 400px;position: relative;}
-
 .banner-zb{background: #00a8ff}
 .banner-zb img{position: absolute}
 .banner-zb .z1{ top: 0; left: 50%;margin-left: -366px;}
 .banner-zb .z2{right: 0;top: 74px;}
 .banner-zb .z3{left: 0;top: 86px;}
-
 .banner-b .b-1{-webkit-animation:bounceInLeft 1.5s 0s ease both;-moz-animation:bounceInLeft 1.5s 0s ease both;animation:bounceInLeft 1.5s 0s ease both;}
 .banner-b .b-2{-webkit-animation:bounceInRight 1.5s 0s ease both;-moz-animation:bounceInRight 1.5s 0s ease both;animation:bounceInRight 1.5s 0s ease both;}
 .banner-b .b-3{-webkit-animation:fadeInDown 1s 0s ease both;-moz-animation:fadeInDown 1s 0s ease both;animation:fadeInDown 1s 0s ease both;}

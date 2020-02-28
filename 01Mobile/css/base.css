@@ -160,28 +160,20 @@ a.c-0cf:visited { color: #0cf;}
 .bg-666 {background-color:#666;}
 .bg-333 {background-color:#333;}
 .bg-50bfe6 {background-color:#50bfe6;}
-
-
 .bg-386{background: #fb9386}
 .bg-549{background: #fea549}
 .bg-eb7{background: #5cceb7}
 .bg-b6f{background: #f77b6f}
 .bg-c7d{background: #b7dc7d}
-
-
 .bg-0{background: #ffc4be}
 .bg-1{background: #c0ddc0}
 .bg-2{background: #c6dde2}
 .bg-3{background: #e1c7e9}
 .bg-4{background: #eed9b0}
 .bg-5{background: #cbd2f5}
-
-
 .bg-red{background: #f64a27}
 .bg-green{background: #30c082}
-
 .shadow-ins { box-shadow:0 5px 4px #e5dad0 inset;}
-
 /* layout */
 .tl{text-align:left}
 .tc{text-align:center}
@@ -225,7 +217,6 @@ a.c-0cf:visited { color: #0cf;}
 .wp90 {width:90%!important;}
 .wp9375{width:93.75%;}
 .wp99 { width:99%;}
-
 /*.w10{width:10px}*/
 .w20{width:20px}
 .w30{width:30px}
@@ -259,7 +250,6 @@ a.c-0cf:visited { color: #0cf;}
 .w800{width:800px;}
 .w960{width:960px}
 .w1000{width:1000px}
-
 .h{height:100%}
 .h24{height:24px}
 .h30{height:30px}

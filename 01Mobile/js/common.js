@@ -9,7 +9,6 @@
             if (!clientWidth) return;
             docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
         };
-
     if (!doc.addEventListener) return;
     win.addEventListener(resizeEvt, recalc, false);
     doc.addEventListener('DOMContentLoaded', recalc, false);
@@ -27,7 +26,6 @@ $(function(){
         }
         return false;
     });
-
     $(".tagIcon").on("click",function(){
         $(".clickMore").removeClass('on');
         $(".clickMore .tagList").hide();
@@ -43,14 +41,10 @@ $(function(){
             $(".top").removeClass('rbgaBg');
         }
     });
-
-
 });
 $(function(){
     //myFun.tab(".tabThis");
 });
-
-
 $(function(){
     $(".tagList").each(function(){
         var len=$(this).find('li');
@@ -71,33 +65,20 @@ $(function(){
 $(window).scroll(function() {
 
     if ($(window).scrollTop() > 200) {
-
         $(".backTop").css('display','block');
-
     }
-
     else {
-
         $(".backTop").fadeOut(500);
-
     }
-
 });
 $(".backTop").click(function() {
-
     $('body,html').animate({
-
             scrollTop: 0
-
         },
-
         500);
-
     return false;
-
 });
 var myFun = {
-    //����ÿ�����һ�������ÿ�����һ����margin
     rowlastLi: function(a, b) {
         $(a).each(function() {
             var li = $(this).find("ul>li");
@@ -110,7 +91,6 @@ var myFun = {
             }
         })
     },
-    //tab�л�һ������
     tab: function(obj) {
         var tabObj = $(obj);
         tabObj.each(function() {
@@ -125,7 +105,6 @@ var myFun = {
             }).eq(0).trigger("click");
         });
     },
-    //tab�л���������
     tabs: function(a, b, c) {
         var len = $(a);
         len.bind("click", function() {
@@ -136,36 +115,29 @@ var myFun = {
             return false;
         }).eq(0).trigger("click");
     },
-
     navToggle:function(a){
       $(a).click(function(){
          $(this).addClass("on").siblings().removeClass('on');
       });
     },
-    //������һ��li��border
     lastLi: function(a) {
         $(a).find("li").last().css('borderBottom', '0');
     },
-    //������һ��li��margin-right
     lastLimr: function(a) {
         $(a).find("li").last().css('marginRight', '0');
     },
 
-    //���������Ļ�����������ĵ��ģ���topֵ
     marginTop: function(a) {
         var wHeight = $(window).height();
         var boxHeight = $(a).height();
-        //var scrollTop = $(window).scrollTop();
         var top = (wHeight - boxHeight) / 2;
         $(a).css('marginTop', top);
     },
     animate: function (sum){
         var t = $(window).scrollTop();
         var h = $(window).height();
-
         for(var i = 1; i < sum + 1; i ++){
             var off = $('.play' + i).offset().top + 100;
-
             if(t + h > off){
                 $('.play' + i).addClass('animate');
             };
