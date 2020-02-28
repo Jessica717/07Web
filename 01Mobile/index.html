@@ -1125,17 +1125,22 @@ var _hmt = _hmt || [];
 </body>
 </html>
 <script >
-    new Swiper('.swiper-container2', {
-            pagination: '.swiper-p2',
-            slidesPerView: 1,
+    $('body').hide()
+    clearTimeout(timer)
+    var timer=setTimeout(function(){
+        $('body').show()
+        new Swiper('.swiper-container2', {
+                pagination: '.swiper-p2',
+                slidesPerView: 1,
+                autoplay: 5000,//可选选项，自动滑动
+                paginationClickable: true,
+                spaceBetween: 0,
+            });
+        var swiper = new Swiper('.swiper-container-banner', {
+            loop:true,
             autoplay: 5000,//可选选项，自动滑动
-            paginationClickable: true,
-            spaceBetween: 0,
+            // 如果需要分页器
+            pagination: '.swiper-pagination-banner'
         });
-    var swiper = new Swiper('.swiper-container-banner', {
-        loop:true,
-        autoplay: 5000,//可选选项，自动滑动
-        // 如果需要分页器
-        pagination: '.swiper-pagination-banner'
-    });
+    },100)
 </script>
