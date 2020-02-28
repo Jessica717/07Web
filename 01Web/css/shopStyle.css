@@ -76,9 +76,13 @@ body{background: #fff;overflow-x: hidden;min-width:1120px}
 
 .navAndLogo .bigNav ul li a{display: block;font-size: 18px;color: #3d3d3d;padding: 0;position: relative}
 
-.navAndLogo .bigNav ul li.navArrow:hover,.navAndLogo .bigNav ul li.hover{background: url("../image/wei/navArrow.png") bottom center no-repeat}
+/* .navAndLogo .bigNav ul li.navArrow:hover,.navAndLogo .bigNav ul li.hover{background: url("../image/wei/navArrow.png") bottom center no-repeat} */
+/* .navAndLogo .bigNav ul li.on{
+    border-bottom: 1px solid #3399cc;
+} */
 
 .navAndLogo .bigNav ul li.on a,.navAndLogo .bigNav ul li:hover a,.navAndLogo .bigNav ul li.hover a{color: #3399cc}
+.navAndLogo .bigNav ul li.on a,.navAndLogo .bigNav ul li:hover a,.navAndLogo .bigNav ul li.hover{border-bottom: 2px solid #3399cc;}
 
 .subNav{position: absolute;left: 0;right: 0;top: 90px;padding: 30px 0;text-align: center;background: #3d3d3d;background:rgba(61,61,61,.9);display: none}
 
