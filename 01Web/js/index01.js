@@ -283,42 +283,42 @@ $(function(){
     $('.fixedLeftBar').on('click','li',function(){
         if ($(this).hasClass('l1')) {
             $('html, body').animate({
-                scrollTop: 400
+                scrollTop: 648
             }, 1000);
         }
         if ($(this).hasClass('l2')) {
             $('html, body').animate({
-                scrollTop: 1207
+                scrollTop: 1539
             }, 1000);
         }
         if ($(this).hasClass('l3')) {
             $('html, body').animate({
-                scrollTop: 2057
+                scrollTop: 2430
             }, 1000);
         }
         if ($(this).hasClass('l4')) {
             $('html, body').animate({
-                scrollTop: 2908
+                scrollTop: 3254
             }, 1000);
         }
         if ($(this).hasClass('l5')) {
             $('html, body').animate({
-                scrollTop: 3568
+                scrollTop: 3918
             }, 1000);
         }
         if ($(this).hasClass('l6')) {
             $('html, body').animate({
-                scrollTop: 4452
+                scrollTop: 4710
             }, 1000);
         }
         if ($(this).hasClass('l7')) {
             $('html, body').animate({
-                scrollTop: 5184
+                scrollTop:6129
             }, 1000);
         }
         if ($(this).hasClass('l8')) {
             $('html, body').animate({
-                scrollTop: 5852
+                scrollTop: 6129
             }, 1000);
         }
     })
@@ -331,27 +331,27 @@ $(function(){
         }
         if ($(this).hasClass('l1')) {
             $('html, body').animate({
-                scrollTop: 400
+                scrollTop: 648
             }, 1000);
         }
         if ($(this).hasClass('l2')) {
             $('html, body').animate({
-                scrollTop: 1207
+                scrollTop: 1560
             }, 1000);
         }
         if ($(this).hasClass('l3')) {
             $('html, body').animate({
-                scrollTop: 2057
+                scrollTop: 2430
             }, 1000);
         }
         if ($(this).hasClass('l4')) {
             $('html, body').animate({
-                scrollTop: 2908
+                scrollTop: 3280
             }, 1000);
         }
         if ($(this).hasClass('l5')) {
             $('html, body').animate({
-                scrollTop: 3568
+                scrollTop: 4710
             }, 1000);
         }
         if ($(this).hasClass('l6')) {
@@ -366,7 +366,7 @@ $(function(){
         }
         if ($(this).hasClass('l8')) {
             $('html, body').animate({
-                scrollTop: 5852
+                scrollTop: 6128
             }, 1000);
         }
     })

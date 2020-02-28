@@ -1,6 +1,6 @@
 .top{background:#3AA8D5;height: 2.4rem;padding: 0 0.5rem;overflow: hidden;position: fixed;top: 0;left: 0;right: 0;z-index: 99}
 .rbgaBg{background:#3AA8D5;}
-.hLine{height: 2.4rem}
+.hLine{height: 2.4rem;font-size: 0;padding: 0;margin: 0;}
 .top .logo{line-height: 2.4rem;}
 .top .logo img{height: 1.65rem}
 .topRight a{font-size: .5rem;color: #fff;display: inline-block;line-height: 2.4rem;}
