@@ -64,11 +64,11 @@ body{background: #fff;overflow-x: hidden;min-width:1120px}
 
 .navAndLogo{line-height: 90px}
 
-.navAndLogo .logo{position: relative;z-index: 1001; width: 215px;}
+.navAndLogo .logo{position: relative;z-index: 1001; width: 215px;margin-left: 30px;}
 
 .navAndLogo .logo img{height: 100%}
 
-.navAndLogo .bigNav{text-align: center;position: relative;z-index: 1000;float: right;}
+.navAndLogo .bigNav{text-align: center;position: relative;z-index: 1000;float: right;margin-right: 30px;}
 
 .navAndLogo .bigNav ul li{display: inline-block;margin: 0 15px}
 
