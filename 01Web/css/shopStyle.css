@@ -218,7 +218,149 @@ body{background: #fff;overflow-x: hidden;min-width:1120px}
 .modHd p{padding: 10px 0;color: #4f5b6c}
 
 .indexMod .projectDesc{padding-bottom: 80px;}
+.service {
+	padding: 0 0 30px;
+	overflow: hidden;
+	position: relative
+}
 
+.service .list {
+	overflow: hidden;
+	padding: 50px 0 0;
+  width: 1244px;
+  margin: 0 auto;
+}
+
+.service li {
+	width: 375px;
+	height: 190px;
+	float: left;
+	margin: 0 18.5px 12px;
+	border: 1px #4392ee solid;
+	text-align: center;
+	overflow: hidden;
+	position: relative
+}
+
+.service li .default {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #4392ee;
+	color: #fff;
+	padding: 35px 0 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out
+}
+
+.service li .bt {
+	font-size: 30px;
+	font-weight: bold
+}
+
+.service li .info {
+	font-size: 24px;
+	margin: 5px 0 13px
+}
+
+.service li .arrow {
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin: auto
+}
+
+.service li .arrow img {
+	vertical-align: middle
+}
+
+.service li .hover {
+	position: absolute;
+	z-index: 1;
+	bottom: -190px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	color: #666;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out
+}
+
+.service li .hover .bt-02 {
+	color: #2277da;
+	font-size: 30px;
+  font-weight: bold;
+	padding: 35px 0 0;
+}
+
+.service li .hover .info-02 {
+	font-size: 13px;
+	margin: 10px 0 13px;
+	line-height: 24px
+}
+
+.service li:hover .default {
+	top: -190px
+}
+
+.service li:hover .hover {
+	bottom: 0
+}
+.anchor {
+	height: 1px;
+	width: 1px;
+	opacity: 1;
+	position: absolute;
+	top: -60px
+}
+.home-title {
+	text-align: center
+}
+
+.home-title .big {
+	display: block;
+	font-weight: bold;
+	font-size: 30px;
+	color: #333;
+	position: relative
+}
+
+.home-title .big:after {
+	content: "";
+	display: block;
+	width: 96px;
+	margin: 5px auto 0;
+	border-bottom: 5px #0099e0 solid
+}
+
+.home-title .small {
+	display: inline-block;
+	border-top: 1px #f2f2f2 solid;
+	padding: 25px 0 0;
+	color: #666
+}
+
+.home-title-02 {
+	text-align: center
+}
+
+.home-title-02 .big {
+	display: block;
+	font-weight: bold;
+	font-size: 20px;
+	color: #333;
+	position: relative
+}
+
+.home-title-02 .small {
+	display: inline-block;
+	color: #666;
+	font-size: 12px
+}
 .mod1 .projectDesc ul{margin-right: -20px}
 
 .mod1 .projectDesc ul li{float: left;margin-right: 20px;color: #fff;margin-bottom: 20px;overflow: hidden}
@@ -512,8 +654,8 @@ body{background: #fff;overflow-x: hidden;min-width:1120px}
 .footer_service li { float: left;width: 300px;}
 .footer_service li i {float: left;width: 50px;height: 50px; background: url('../image/wei/bottom-icon.png') no-repeat;}
 .footer_service li.item-1 i { background-position: 0 0;}
-.footer_service li.item-2 i {background-position: -60px 0;}
-.footer_service li.item-3 i {background-position: -120px 0;}
+.footer_service li.item-2 i {background-position: -120px 0;}
+.footer_service li.item-3 i {background-position: -60px 0;}
 .footer_service li.item-4 i {background-position: -180px 0;}
 .footer_service li .text {padding-left: 70px;}
 .footer_service li .text .h3 {font-size: 18px;color: #fff;}
@@ -1657,7 +1799,7 @@ body{background: #fff;overflow-x: hidden;min-width:1120px}
 
 .bannerLeftInfo p{-webkit-animation:fadeInDown 1s 0s ease both;-moz-animation:fadeInDown 1s 0s ease both;animation:fadeInDown 1s 0s ease both;}
 
-.bannerLeftInfo .targetBtn{-webkit-animation:zoomInUp 1s 0s ease both;-moz-animation:zoomInUp 1s 0s ease both;animation:zoomInUp 1s 0s ease both;}
+/* .bannerLeftInfo .targetBtn{-webkit-animation:zoomInUp 1s 0s ease both;-moz-animation:zoomInUp 1s 0s ease both;animation:zoomInUp 1s 0s ease both;} */
 
 .bannerLeftInfo .targetBtn a:last-child{-webkit-animation:pulse 2s 0s ease both infinite;-moz-animation:pulse 2s 0s ease both infinite;animation:pulse 2s 0s ease both infinite;}
 
@@ -2520,6 +2662,42 @@ height: 348px;}
 .phoneError {z-index:999;position:fixed;top:-500px;left:50%;float:left;width:300px;height:30px;padding:10px 0;color:#fff;line-height:30px;text-align:center;display:none;background:rgba(0,0,0,.8);background:#000/9;border:1px solid #aaa;border-radius:8px;cursor:pointer;margin-left:-150px;}
 .telNote {z-index:999;position:fixed;top:300px;left:50%;float:left;width:300px;height:30px;padding:10px 0;color:#fff;line-height:30px;text-align:center;display:none;background:#fe5842;border:1px solid #fff;border-radius:8px;cursor:pointer;margin-left:-150px;}
 
+.contact .copyright {
+	background: #2e3033;
+	color: #fff;
+	padding-bottom: 20px
+}
+.contact .copyright .container{
+  width: 1200px;
+  margin: 0 auto;
+}
+.contact .copyright a {
+	color: #fff
+}
+
+.contact .copyright img {
+	margin-top: -3px;
+	margin-right: 10px
+}
+
+.contact .copyright .bt-01 {
+	font-size: 30px;
+	padding: 30px 0 20px 0
+}
+
+.contact .copyright .p-01 {
+	padding: 5px 0
+}
+
+.contact .copyright .div-01 {
+	width: 50%;
+	float: left
+}
+
+.contact .copyright .div-01 {
+	width: 50%;
+	float: left
+}
 
 
 /*2018/4/4电商分销第一个banner样式*/

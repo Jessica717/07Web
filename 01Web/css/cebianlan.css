@@ -75,7 +75,7 @@ background: linear-gradient(#fd8163, #fc4b4b); /* 标准的语法（必须放在
 .fixedRightBar div.l_box.l6 i {
        background:url('../image/wei/chanpinMore.png') center no-repeat;
    }
- .more_pro{ border: 2px solid #fd9ea0; z-index: 99999; background: #fff; padding: 30px; border-radius: 10px; display: none; position:fixed; right: 88px; bottom: 216px;}
+ .more_pro{ border: 2px solid #fd9ea0; z-index: 99999; background: #fff; border-radius: 10px; display: none; position:fixed; right: 88px; bottom: 216px;}
 .fixedRightBar div.l_box.l6:hover .more_pro{ display:block;}
  .more_pro .dl_mini dt  a{
     width: auto;

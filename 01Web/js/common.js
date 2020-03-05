@@ -638,7 +638,7 @@ $(function(){
 
             scrollUl.stop().animate({
 
-                    'margin-left': -li4W * r + 'px'
+                    'margin-left': -liW * r + 'px'
 
                 },
 

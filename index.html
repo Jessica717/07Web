@@ -15,10 +15,12 @@
         console.log(windowWidth)
         if (windowWidth < 640) {
             $('body').load('./01Mobile/index.html');
-            $('html').css('fontSize','23.4375px')
+            $('html').css('fontSize','23.4375px');
         }
         if (windowWidth >= 640) {
             $('body').load('./01Web/index.html');
+            $('html').css('fontSize','14px')
+
         }
     </script>
 </body>

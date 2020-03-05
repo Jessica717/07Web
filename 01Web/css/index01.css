@@ -535,6 +535,7 @@ body {background-color:#fff;color:#9d9d9d;font-size:14px;font-family:  Microsoft
     /*background:rgba(28,140,235,.6);*/
     background:rgba(21,131,229,.6);
 }
+
 .modO2O .projectDesc .slider5-wrapper li div {
     position:absolute;
     top:0;
@@ -1151,6 +1152,9 @@ body {background-color:#fff;color:#9d9d9d;font-size:14px;font-family:  Microsoft
 .fixedLeftBar li.active {
     background:#0397FF;
 }
+.fixedLeftBar li.hover_active{
+    background:#0397FF;
+}
 .fixedLeftBar li:last-child {
     border-bottom:1px solid #EBEBEB;
 }
@@ -1169,7 +1173,7 @@ body {background-color:#fff;color:#9d9d9d;font-size:14px;font-family:  Microsoft
     -moz-transition: all .2s;
     transition: all .2s;
 }
-.fixedLeftBar li.active p {
+.fixedLeftBar li.active p,.fixedLeftBar li.hover_active p {
     color:#fff;
 }
 .fixedLeftBar li.l1 i {
@@ -1218,6 +1222,30 @@ body {background-color:#fff;color:#9d9d9d;font-size:14px;font-family:  Microsoft
     background-position:-213px -183px;
 }
 .fixedLeftBar li.l8.active i {
+    background-position:-213px -213px;
+}
+.fixedLeftBar li.l1.hover_active i {
+    background-position:-213px -2px;
+}
+.fixedLeftBar li.l2.hover_active i {
+    background-position:-213px -31px;
+}
+.fixedLeftBar li.l3.hover_active i {
+    background-position:-213px -62px;
+}
+.fixedLeftBar li.l4.hover_active i {
+    background-position:-213px -92px;
+}
+.fixedLeftBar li.l5.hover_active i {
+    background-position:-213px -124px;
+}
+.fixedLeftBar li.l6.hover_active i {
+    background-position:-213px -153px;
+}
+.fixedLeftBar li.l7.hover_active i {
+    background-position:-213px -183px;
+}
+.fixedLeftBar li.l8.hover_active i {
     background-position:-213px -213px;
 }
 /*右侧边栏*/
